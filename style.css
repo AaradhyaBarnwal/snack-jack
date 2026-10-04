@@ -21,7 +21,7 @@ section{
 }
 
 .text{
-    display: flex;
+    display: grid;
     align-items:center;
     justify-content: center;
     font-family: "DynaPuff";
@@ -64,6 +64,10 @@ section{
     margin-top: 50px;
 }
 
+.card:hover{
+    background-image: url("./food1.jpg");
+}
+
 .card2{
     display: flex;
     flex-direction: column;
@@ -78,7 +82,6 @@ section{
     background-color: rgb(248, 255, 125);
     box-shadow: 5px 5px rgb(0, 0, 0);
     margin: 50px;
-
 }
 
 .cardy2{
@@ -89,6 +92,14 @@ section{
     background-color: rgb(248, 255, 125);
     box-shadow: 5px 5px rgb(0, 0, 0);
     margin: 50px;
+}
+
+.cardy:hover{
+    background-image: url(./food2.jpg);
+}
+
+.cardy2:hover{
+    background-image: url(./food2.jpg);
 }
 
 h2{
@@ -103,3 +114,9 @@ a {
    color: rgb(12, 55, 61);
    text-decoration: none;
 }
+
+.btns{
+    display: flex;
+    gap: 2rem;
+}
+
