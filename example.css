@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(241, 218, 83);
+}
+
+.card{
+    background-color: powderblue;
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    border-radius: 25px;
+    border: 5px double rgb(115, 126, 248);
+    box-shadow: 1px 1px rgb(1, 41, 47);
+}
+
+h1{
+    background-color: rgb(6, 60, 67);
+    align-self: center;
+    justify-self: center;
+    font-family: 'Sour Gummy';
+    color: rgb(241, 241, 144);
+    padding: 1rem;
+    border-radius: 12px;
+}
